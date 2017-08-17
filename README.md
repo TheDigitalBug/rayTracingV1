@@ -1,30 +1,23 @@
 # Project Name : RTv1 (Ray Tracing v1.0)
 
 # Info:
-Filler project is an algorithm project with SDL2 graphic.
-The goal of this project is to write an algorithm for the game Filler.
-![Filler](/filler.gif?raw=true "FIller")
-
-# The rules of the game:
- - the winner is player who gets biggest board space.
- - the game is over for player if he cant makes an move.
- - piece sent by the Virtual Machine.
- - piece can have any shape and size.
+RTv1 project is an ray tracing algorithm project with MLX graphic library.
+The goal of this project is to write an ray tracing algorithm for sphere, plane, cone, cylinder, polygone.
+Program, that visualizes 3d objects using ray-tracing method
+![rtv1](https://github.com/TheDigitalBug/rayTracingV1/blob/master/rtv1_0000.png)
+![rtv1](https://github.com/TheDigitalBug/rayTracingV1/blob/master/rtv1_000.png)
+![rtv1](https://github.com/TheDigitalBug/rayTracingV1/blob/master/rtv1_001.png)
+![rtv1](https://github.com/TheDigitalBug/rayTracingV1/blob/master/rtv1_002.png)
+![rtv1](https://github.com/TheDigitalBug/rayTracingV1/blob/master/rtv1_003.png)
+![rtv1](https://github.com/TheDigitalBug/rayTracingV1/blob/master/rtv1_004.png)
 
 # Usage:
-- install/copy frameworks SDL2 and SDL2_ttf to Library/Frameworks/
+
 ```
 $> make
-$> cd resources
-$> ./filler_vm -f maps/map02 -p2 players/superjeannot.filler -p1 ../filler
-[./filler_vm -f MAP -p1 P1_NAME -p2 P2_NAME]
+$> ./RTv1 scene/scene0.txt
 ```
 # Resources:
 ```
-$> cd resources/maps
-$> cd resources/players
+$> cd scene
 ```
-maps
-
-# Filler bot Game with SDL2 graphic:
-![Filler](https://github.com/TheDigitalBug/filler/blob/master/logo.png)
