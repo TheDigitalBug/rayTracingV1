@@ -1,5 +1,5 @@
 # Project Name : RTv1 (Ray Tracing v1.0)
-
+![rtv1](/rtv1.gif?raw=true "rtv1")
 # Info:
 RTv1 project is an ray tracing algorithm project with MLX graphic library.
 The goal of this project is to write an ray tracing algorithm for sphere, plane, cone, cylinder, polygon.
