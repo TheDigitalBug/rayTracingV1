@@ -1,0 +1,23 @@
+name     |center       | direction | radius/angel   |color
+
+sphere   (-300 600 200)                  150                  0x117864
+sphere   (-300 -600 200)                  150                  0x117864
+cylinder (-300 0 200)         (0 1 0)     100              0x00ff00
+
+sphere   (300 600 200)                  150                  0x117864
+sphere   (300 -600 200)                  150                  0x117864
+cylinder (300 0 200)         (0 1 0)     100              0x00ff00
+
+
+
+
+/cone     (200 0 0)      (0 1 0)     30                0xff0000
+plane    (0 0 -900)        (0 2 1)                     0x5245ce
+plane    (0 0 -900)        (0 -2 1)                    0x5245ce
+plane    (0 0 -900)        (2 0 1)                     0x5245ce
+plane    (0 0 -900)        (-2 0 1)                    0x5245ce
+plane    (0 0 -200)           (0 0 1)                     0xffffff
+
+
+ray      (0 0 1000)  
+light    (600 0 1000)                                0xffffff

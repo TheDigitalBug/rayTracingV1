@@ -1,0 +1,5 @@
+name     |center       | direction | radius/angel   |color
+cone     (0 0 0)        (0 1 0)      20               0xff0000
+plane    (0 -200 0)     (0 1 1)                       0xffffff
+ray      (0 0 1000)  
+light    (1000 0 1000)                                0xffffff

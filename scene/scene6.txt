@@ -1,0 +1,30 @@
+name     |center       | direction | radius/angel   |color
+sphere    (0 0 0)            270               0xff0000
+plane    (0 -300 0)     (0 1 0)                       0xffffff
+plane    (0 0 -500)     (0 0 1)                       0xffffff
+
+
+---front left
+polygon        (0 800 0)  (-50 50 300)  (050 50 300)        0xff0000
+polygon        (0 800 0)  (050 50 300)  (150 50 250)        0xff0000
+polygon        (0 800 0)  (150 50 250)  (250 50 150)        0xff0000
+polygon        (0 800 0)  (250 50 150)  (300 50 050)        0xff0000
+
+---front right
+polygon        (0 800 0)  (-050 50 300)  (-150 50 250)       0xff0000
+polygon        (0 800 0)  (-150 50 250)  (-250 50 150)       0xff0000
+polygon        (0 800 0)  (-250 50 150)  (-300 50 050)       0xff0000
+
+---back left
+polygon        (0 800 0)  (-50 50 -300)  (050 50 -300)       0xff0000
+polygon        (0 800 0)  (050 50 -300)  (150 50 -250)       0xff0000
+polygon        (0 800 0)  (150 50 -250)  (250 50 -150)       0xff0000
+polygon        (0 800 0)  (250 50 -150)  (300 50 -050)       0xff0000
+
+---back right
+polygon        (0 800 0)  (-050 50 -300)  (-150 50 -250)      0xff0000
+polygon        (0 800 0)  (-150 50 -250)  (-250 50 -150)      0xff0000
+polygon        (0 800 0)  (-250 50 -150)  (-300 50 -050)      0xff0000
+
+light    (-1000 1000 1000)                                0xffffff
+ray      (0 0 1000)  

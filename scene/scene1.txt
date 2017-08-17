@@ -1,0 +1,4 @@
+name     |center       | direction | radius/angel   |color
+cylinder (0 0 0)        (0 1 0)      300              0x00ff00
+ray      (0 0 1000)  
+light    (1000 0 1000)                                0xffffff
